@@ -1,6 +1,6 @@
 # Time Series Forecasting of Electricity Demand
 
-A time series forecasting project that predicts monthly electricity demand in the ISO New England region using Seasonal ARIMA (SARIMA). Developed as part of MA585: Time Series and Forecasting at Boston University.
+A time series forecasting project that predicts monthly electricity demand in the ISO New England region using Seasonal ARIMA (SARIMA). Developed as part of MA585: Time Series and Forecasting course at Boston University.
 
 
 ## Project Overview
