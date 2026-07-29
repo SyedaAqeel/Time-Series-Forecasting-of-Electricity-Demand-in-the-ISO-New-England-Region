@@ -1,19 +1,13 @@
 # Time Series Forecasting of Electricity Demand
 
-A time series forecasting project that predicts monthly electricity demand in the ISO New England region using Seasonal ARIMA (SARIMA). Developed as part of **MA585: Time Series and Forecasting** at **Boston University**.
+A time series forecasting project that predicts monthly electricity demand in the ISO New England region using Seasonal ARIMA (SARIMA). Developed as part of MA585: Time Series and Forecasting at Boston University.
 
 
 ## Project Overview
 
 This project applies the Box-Jenkins methodology to forecast monthly Non-Peak Time Frame (Non-PTF) electricity demand** in the ISO New England Control Area. The objective was to develop an accurate forecasting model for electricity demand and compare its performance with a classical exponential smoothing approach.
 
-The analysis uses historical electricity demand from **January 2017 through December 2024** to generate twelve-month forecasts and evaluate model performance using standard forecasting accuracy metrics. 
-
-
-## Course
-
-**MA585: Time Series and Forecasting**  
-Boston University
+The analysis uses historical electricity demand from January 2017 through December 2024 to generate twelve-month forecasts and evaluate model performance using standard forecasting accuracy metrics. 
 
 
 ## Dataset
