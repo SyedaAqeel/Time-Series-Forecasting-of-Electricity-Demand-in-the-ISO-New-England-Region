@@ -26,7 +26,9 @@ This project applies the Box-Jenkins methodology to forecast monthly Non-Peak Ti
 ## Results
 
 
-![SARIMA Forecast](SARIMA_train.png)
+<p align="center">
+  <img src="SARIMA_train.png" alt="SARIMA Forecast" width="75%">
+</p>
 
 
 | Model | MAE | RMSE | MAPE |
