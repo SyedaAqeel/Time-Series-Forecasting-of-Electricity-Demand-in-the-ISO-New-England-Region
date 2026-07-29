@@ -22,10 +22,12 @@ This project applies the Box-Jenkins methodology to forecast monthly Non-Peak Ti
 - **SARIMA(0,1,1) × (0,1,1)₁₂**
 - **Holt-Winters Exponential Smoothing (Additive)**
 
-The final SARIMA model was selected because it effectively captured both the seasonal and stochastic patterns present in monthly electricity demand. 
-
 
 ## Results
+
+<p align="center">
+  <img src="figures/SARIMA_train.png" width="850">
+</p>
 
 | Model | MAE | RMSE | MAPE |
 |--------|----:|-----:|------:|
