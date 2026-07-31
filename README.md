@@ -22,7 +22,5 @@ This project forecasts monthly Non-Peak Time Frame (Non-PTF) electricity demand 
 
 ## Course
 
-MA 585 - Time Series and Forecasting
-
-
+MA 585 - Time Series and Forecasting<br>
 Boston University
