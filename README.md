@@ -1,46 +1,26 @@
 # Time Series Forecasting of Electricity Demand
 
-A time series forecasting project that predicts monthly electricity demand in the ISO New England region using Seasonal ARIMA (SARIMA). Developed as part of MA585: Time Series and Forecasting course at Boston University.
-
-
-## Project Overview
-
-This project applies the Box-Jenkins methodology to forecast monthly Non-Peak Time Frame (Non-PTF) electricity demand in the ISO New England Control Area. The objective was to develop an accurate forecasting model for electricity demand and compare its performance with a classical exponential smoothing approach.
-
-
-## Dataset
-
-- **Source:** ISO New England Public Data Portal
-- **Region:** ISO New England (Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont)
-- **Time Period:** January 2017 – December 2024
-- **Frequency:** Monthly
-- **Target Variable:** Non-Peak Time Frame (Non-PTF) Demand (GWh) 
-
-
-## Models
-
-- **SARIMA(0,1,1) × (0,1,1)₁₂**
-- **Holt-Winters Exponential Smoothing (Additive)**
-
-
-## Results
-
+This project forecasts monthly Non-Peak Time Frame (Non-PTF) electricity demand for the ISO New England region using the Box-Jenkins methodology. Using public electricity demand data from January 2017 to December 2024, the project develops and evaluates a seasonal time series forecasting model, comparing its performance against a classical exponential smoothing baseline. Model performance is assessed using MAE, RMSE, and MAPE, with the selected SARIMA model achieving the highest forecasting accuracy while effectively capturing seasonal demand patterns.
 
 <p align="center">
   <img src="SARIMA_train.png" alt="SARIMA Forecast" width="55%">
 </p>
 
 
-| Model | MAE | RMSE | MAPE |
-|--------|----:|-----:|------:|
-| SARIMA | 306.37 | 381.98 | 3.11% |
-| Holt-Winters | 395.63 | 485.64 | 4.01% |
+## Models
 
-The SARIMA model consistently outperformed the Holt-Winters model across all evaluation metrics, producing more accurate forecasts while better capturing seasonal demand fluctuations. 
+- SARIMA(0,1,1) × (0,1,1)₁₂
+- Holt-Winters Exponential Smoothing (Additive)
 
 
 ## Future Improvements
 
 - Incorporate exogenous variables such as temperature and economic indicators using SARIMAX.
 - Explore advanced forecasting approaches such as Prophet and LSTM models.
-- Evaluate model performance over longer forecasting horizons. 
+- Evaluate model performance over longer forecasting horizons.
+
+
+## Course
+
+MA 585 - Time Series and Forecasting
+Boston University
